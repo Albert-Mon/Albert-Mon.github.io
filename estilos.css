@@ -25,6 +25,7 @@ html{
 /*Posicion de las opciones del menu*/
 .contenedor-header header{
 	max-width: 1100px;
+	min-width: 320px;
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
@@ -134,6 +135,8 @@ html{
 	background-color: #1CB698;
 }
 
+
+
 /*--------------------------Fin del css del inicio-------------------------------*/
 
 /*----------------------------Sobre Mi CSS-------------------------------------------------------------*/
@@ -200,6 +203,11 @@ html{
 	color: #1CB698;
 	width: 130px;
 }
+.img{
+	width: 100%;
+	border-radius: 15%;
+	box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
 /*
 .sobremi .fila .col ul li span{
 	background-color: #1CB698;
@@ -229,7 +237,8 @@ html{
 	align-items: center;
 	justify-content: center;
 	transition: .3s;
-}/*Iluminacion al pasar el puntero*/
+}
+/*Iluminacion al pasar el puntero*/
 .sobremi .fila .col .contenedor-intereses .interes:hover{
 	background-color: #1CB698;
 }
@@ -707,4 +716,69 @@ html{
 	color: #fff;
 	position: relative;
 	z-index: 10;
+}
+
+
+
+/*--------------------------------Seccion Responsive------------------------------------------------*/
+
+@media screen and (max-width:980px){
+	nav{
+		display: none;
+	}
+	.nav-responsive{
+		display: block;
+	}
+	nav.responsive{
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 75px;
+		background-color: #252A2E;
+		width: 180px;
+	}
+
+	nav.responsive ul{
+		display: block !important;
+	}
+
+	nav.responsive ul li{
+		border-bottom: 1px solid #fff;
+		padding: 10px 0;
+	}
+}
+
+@media screen and (max-width:700px){
+	.sobremi .fila{
+		display: block;
+	}
+	.sobremi .fila .col{
+		width: fit-content;
+	}
+	.skills .fila{
+		display: block;
+	}
+	.skills .fila .col{
+		width: 100%;
+	}
+	.skills .fila .col .barra-skill{
+ 		width: 100%;
+	}
+
+	.curriculum .fila{
+		display: block;
+	}
+	.curriculum .fila .col{
+		width: 90%;
+	}
+	.curriculum .fila .der{
+		margin-left: 20px
+	}
+
+	.portafolio .fila{
+		display: block;
+	}
+	.portafolio .fila .col{
+		width: 100%;
+	}
 }
