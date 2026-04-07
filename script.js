@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 let menuVisible = false;
 //Funcion que hace que el menu se oculte y aparezca
 
@@ -18,44 +17,3 @@ function seleccionar(){
   document.getElementById("nav").classList = "";
   menuVisible = false;
 }
-=======
-<<<<<<< HEAD
-let menuVisible = false;
-//Funcion que hace que el menu se oculte y aparezca
-
-function mostrarOcultarMenu(){
-  if(menuVisible){
-    document.getElementById("nav").classList = "";
-    menuVisible = false;
-  }else{
-    document.getElementById("nav").classList = "responsive";
-    menuVisible = true;
-  }
-}
-
-function seleccionar(){
-  //Se oculta el menu una vez seleccionada la opcion
-  document.getElementById("nav").classList = "";
-  menuVisible = false;
-}
-=======
-let menuVisible = false;
-//Funcion que hace que el menu se oculte y aparezca
-
-function mostrarOcultarMenu(){
-  if(menuVisible){
-    document.getElementById("nav").classList = "";
-    menuVisible = false;
-  }else{
-    document.getElementById("nav").classList = "responsive";
-    menuVisible = true;
-  }
-}
-
-function seleccionar(){
-  //Se oculta el menu una vez seleccionada la opcion
-  document.getElementById("nav").classList = "";
-  menuVisible = false;
-}
->>>>>>> 80f961c790cb574ff23289cec6b0dba73c88dae4
->>>>>>> master
