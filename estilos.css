@@ -638,27 +638,6 @@ html{
 	bottom: 4px;
 }
 
-/*----------------------------CERTIFICACIONES--------------------------------------------------------*/
-
-.certificaciones{
-	background-color: #252A2E ;
-	color: #fff;
-	padding: 50px 20px;
-}
-/*Centrado del texto y espacio*/
-.certificaciones .contenedor-certificaciones{
-	max-width: 1100px;
-	margin: auto;
-}
-
-/*Estilo del Titulo*/
-.certificaciones h2{
-	font-size: 48px;
-	font-family: 'Righteous';
-	text-align: center;
-	padding: 20px 0;
-}
-
 /*---------------------------Portafolio -------------------------------------------------------------*/
 
 .portafolio{
